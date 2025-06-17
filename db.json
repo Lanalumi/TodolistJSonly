@@ -4,14 +4,64 @@
       "id": "idhaiusd123",
       "title": "Nome da categoria",
       "active": false,
-      "tasks": [{ "id": "ahuahu", "title": "aahha", "isChecked": true }]
+      "tasks": [
+        {
+          "id": "ahuahu",
+          "title": "aahha",
+          "isChecked": true
+        }
+      ]
     },
-
     {
       "id": "123",
       "title": "Nome da categoria",
       "active": false,
-      "tasks": [{ "id": "ahuahu", "title": "aahha", "isChecked": true }]
+      "tasks": [
+        {
+          "id": "ahuahu",
+          "title": "aahha",
+          "isChecked": true
+        }
+      ]
+    },
+    {
+      "id": "61a5"
+    },
+    {
+      "id": "f012"
+    },
+    {
+      "id": "5ee7"
+    },
+    {
+      "id": "c967"
+    },
+    {
+      "id": "74ca"
+    },
+    {
+      "id": "6d3d"
+    },
+    {
+      "id": "3eeb"
+    },
+    {
+      "id": "3339"
+    },
+    {
+      "id": "f1ea"
+    },
+    {
+      "id": "3e8c"
+    },
+    {
+      "id": "d26d"
+    },
+    {
+      "id": "8e53"
+    },
+    {
+      "id": "5353"
     }
   ]
 }

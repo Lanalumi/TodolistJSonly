@@ -1,14 +1,13 @@
 const getCategories = async () => {
   const response = await fetch("http://localhost:3000/categorias");
   const categories = await response.json();
-  console.log(categories);
+
   return categories;
 };
 
 const loadCategories = async () => {
   const categories = await getCategories();
   const categoriesElement = document.querySelector("#categories");
-  console.log(categoriesElement);
 
   categories.forEach((category) => {
     const categoryElement = document.createElement("li");
@@ -28,9 +27,24 @@ const loadCategories = async () => {
     categoriesElement.appendChild(categoryElement);
   });
 };
+const postCategory = async () => {
+  const response = await fetch(
+    "http://localhost:3000/categorias",
+    { method: "POST" },
+    { body: JSON.stringify({}) }
+  );
+  console.log(response);
+};
+const createCategory = () => {
+  const createCategoryElement = document.querySelector(
+    "#create-category-button"
+  );
+  createCategoryElement.addEventListener("click", postCategory);
+};
 
 const init = () => {
   loadCategories();
+  createCategory();
 };
 
 init();
