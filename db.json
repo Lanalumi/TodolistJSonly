@@ -1,0 +1,17 @@
+{
+  "categorias": [
+    {
+      "id": "idhaiusd123",
+      "title": "Nome da categoria",
+      "active": false,
+      "tasks": [{ "id": "ahuahu", "title": "aahha", "isChecked": true }]
+    },
+
+    {
+      "id": "123",
+      "title": "Nome da categoria",
+      "active": false,
+      "tasks": [{ "id": "ahuahu", "title": "aahha", "isChecked": true }]
+    }
+  ]
+}
