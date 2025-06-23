@@ -7,8 +7,13 @@
   width: 100%;
   height: 600px;
 }
-
 .menu {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu-left {
   background-color: var(--light-Purple);
   display: flex;
   flex-direction: column;
@@ -50,13 +55,13 @@
 }
 
 .category-title {
+  color: inherit;
   display: flex;
   justify-content: center;
   border: none;
   outline: none;
   font-size: 20px;
   width: 160px;
-  color: var(--light-Purple);
   font-weight: 700;
   background-color: transparent;
 }
@@ -84,18 +89,80 @@
   align-items: center;
 }
 
-/* input:checked.label.category-status {
-  background-color: var(--light-Purple);
-  color: var(--white);
-}
-input {
-  display: none;
-}
-input:checked {
-  display: none;
+.add-button {
+  background-color: transparent;
+  border: none;
 }
 
-input:checked + label {
-  background-color: var(--white);
+.menu-right {
+  display: flex;
+  width: 600px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 116px;
+}
+
+.tasks {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tasks-header {
+  padding-bottom: 64px;
+  display: flex;
+  gap: 16px;
+  max-width: 100%;
+}
+
+.tasks-category {
+  font-size: 32px;
+  font-weight: 700;
   color: var(--light-Purple);
+}
+
+.task {
+  background-color: var(--light-Purple);
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+}
+
+.task-status {
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-name {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: var(--white);
+  font-weight: 400;
+}
+
+.task-status:checked + label {
+  background-color: var(--light-grey);
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+.task-status:checked {
+  background-color: var(--light-grey);
+  color: var(--black);
+}
+
+/* .task:checked + label {
+    background-color: var(--white);
+    color: var(--light-Purple);
+    } */
+/* input:checked {
+  background-color: var(--light-grey);
+  cursor: pointer;
+  color: var(--black);
+  text-decoration: line-through;
 } */

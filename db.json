@@ -3,65 +3,79 @@
     {
       "id": "idhaiusd123",
       "title": "Nome da categoria",
-      "active": false,
-      "tasks": [
-        {
-          "id": "ahuahu",
-          "title": "aahha",
-          "isChecked": true
-        }
-      ]
+      "active": true
     },
     {
-      "id": "123",
-      "title": "Nome da categoria",
-      "active": false,
-      "tasks": [
-        {
-          "id": "ahuahu",
-          "title": "aahha",
-          "isChecked": true
-        }
-      ]
+      "id": "8717"
     },
     {
-      "id": "61a5"
+      "id": "4de8"
     },
     {
-      "id": "f012"
+      "id": "0807"
     },
     {
-      "id": "5ee7"
+      "id": "b438"
     },
     {
-      "id": "c967"
+      "id": "2e75"
     },
     {
-      "id": "74ca"
+      "id": "c390"
     },
     {
-      "id": "6d3d"
+      "id": "2f63"
     },
     {
-      "id": "3eeb"
+      "id": "9407"
+    }
+  ],
+  "tarefas": [
+    {
+      "categoriaId": "idhaiusd123",
+      "id": "ahuahu",
+      "title": "aahha",
+      "isChecked": true
     },
     {
-      "id": "3339"
+      "id": "cb6a"
     },
     {
-      "id": "f1ea"
+      "id": "df8e"
     },
     {
-      "id": "3e8c"
+      "id": "e2c4"
     },
     {
-      "id": "d26d"
+      "id": "d049"
     },
     {
-      "id": "8e53"
+      "id": "9a3d"
     },
     {
-      "id": "5353"
+      "id": "64d6"
+    },
+    {
+      "id": "5589"
+    },
+    {
+      "id": "a44b"
+    },
+    {
+      "id": "cbf7"
+    },
+    {
+      "id": "9968"
+    },
+    {
+      "id": "2be0"
+    },
+    {
+      "id": "1f94"
+    },
+    {
+      "id": "aa12",
+      "categoriaId": "idhaiusd123"
     }
   ]
 }
