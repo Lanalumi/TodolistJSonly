@@ -92,6 +92,7 @@
 .add-button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .menu-right {
@@ -145,17 +146,18 @@
   font-weight: 400;
 }
 
-.task-status:checked + label {
-  background-color: var(--light-grey);
-  cursor: pointer;
+.task-status:checked + #text {
   text-decoration: line-through;
 }
 
-.task-status:checked {
-  background-color: var(--light-grey);
+.task-status:checked + .task {
   color: var(--black);
 }
 
+.task-status:checked + label {
+  background-color: var(--light-grey);
+  cursor: pointer;
+}
 /* .task:checked + label {
     background-color: var(--white);
     color: var(--light-Purple);

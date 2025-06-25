@@ -56,17 +56,18 @@ const loadTasks = async (category) => {
 
   tasks.forEach((task) => {
     const taskElement = document.createElement("li");
+    taskElement.classList.add("task");
     const checkboxElement = document.createElement("input");
     checkboxElement.setAttribute("type", "checkbox");
     checkboxElement.classList.add("task-status");
     checkboxElement.setAttribute("id", "checkbox-" + task.id);
     taskElement.innerHTML = `
     <label for="checkbox-${task.id}" class="label">
-    <input class="task-name" type="text" value="${
-      task.title || ""
-    }" aria-label="título da categoria">
+      <input id="text" class="task-name" type="text" value="${
+        task.title || ""
+      }" aria-label="título da categoria">
 
-    <image src="./assets/icons/delete-task-icon.svg">
+      <img src="./assets/icons/delete-task-icon.svg">
     </label>`;
 
     const checkedClass = task.checked ? " checked" : "";
